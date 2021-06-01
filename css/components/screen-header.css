@@ -1,9 +1,10 @@
 .screen-header{
     display: flex;
-    margin-top: 50px;
+    margin-top: 30px;
     justify-content: space-between;
-    padding: 25px;
+    padding: var(--horizontal-space);
     align-items: center;
+    margin-bottom: 15px;
 }
 
 .screen-header__title {
@@ -12,5 +13,14 @@
 }
 
 .screen-header__icons span {
-    margin-left: 25px;
+    margin-left: var(--horizontal-space);
+}
+
+.screen-header__icons:last-child {
+    position: relative;
+}
+
+.screen-header__dot {
+    left: 100px;
+    bottom: 20px;
 }
